@@ -106,7 +106,7 @@ elif [ "$BINARY" == "CHAOS" ];then
     export NITER=200
     export SHOW_ALL_PREPARED_COLL=1
     export WARMITER=0
-    export NBYTES=$3
+    export NBYTES=8
     export MITER=1
     export CHECK=0
 fi
