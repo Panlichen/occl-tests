@@ -75,9 +75,9 @@ if [ "$BINARY" == "DEBUG" ];then
     if [ $MY_NUM_DEV = 2 ]; then
         export CUDA_VISIBLE_DEVICES=4,5
     fi
-    export NITER=1
+    export NITER=5
     export NBYTES=$3
-    export WARMITER=0
+    export WARMITER=2
     export MITER=1
 elif [ "$BINARY" == "PERF" ];then
     if [ $MY_NUM_DEV = 4 ]; then
