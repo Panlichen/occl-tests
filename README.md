@@ -19,7 +19,7 @@ make src_simple.build -j<n> MPI=1 MPI_HOME=path-to-mpi NCCL_HOME=path-to-occl/bu
 bash nccl_tests.sh <NUM_GPUS> <COLL_FUNC> <BUFFER_SIZE>
 bash occl_tests.sh <NUM_GPUS> <COLL_FUNC> <BUFFER_SIZE>
 ```
-- Supported `COLL_FUNC` includes `AR`, `AG`, `RS`, `R`, and `B`, representing all-reduce, all-gather, reduce-scatter, reduce, broadcast.
+- Supported `COLL_FUNC` includes `AR`, `AG`, `RS`, `R`, and `B`, representing all-reduce, all-gather, reduce-scatter, reduce, and broadcast.
 
 and for experiments with MPI:
 ```shell
