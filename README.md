@@ -23,8 +23,8 @@ bash occl_tests.sh <NUM_GPUS> <COLL_FUNC> <BUFFER_SIZE>
 
 and for experiments with MPI:
 ```shell
-bash mpi_nccl_tests.sh <NUM_GPUS> <COLL_FUNC> <BUFFER_SIZE>
-bash mpi_occl_tests.sh <NUM_GPUS> <COLL_FUNC> <BUFFER_SIZE>
+bash mpi_nccl_tests.sh <NUM_GPUS_PER_NODE> <COLL_FUNC> <BUFFER_SIZE>
+bash mpi_occl_tests.sh <NUM_GPUS_PER_NODE> <COLL_FUNC> <BUFFER_SIZE>
 ```
 
 To demonstrate OCCL's deadlock-prevention capability:
